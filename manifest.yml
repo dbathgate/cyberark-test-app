@@ -1,0 +1,7 @@
+applications:
+- name: cyberark-windows-test
+  stack: windows
+  command: .\cyberark-test.exe
+  path: publish
+  buildpacks:
+  - binary_buildpack
