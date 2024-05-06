@@ -1,0 +1,7 @@
+applications:
+- name: cyberark-linux-test
+  command: ./cyberark-test
+  path: publish
+  buildpacks:
+  - binary_buildpack
+  memory: 256m
