@@ -4,4 +4,5 @@ applications:
   command: .\cyberark-test.exe
   path: publish
   buildpacks:
+  - conjur-buildpack
   - binary_buildpack

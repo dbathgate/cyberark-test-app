@@ -3,5 +3,6 @@ applications:
   command: ./cyberark-test
   path: publish
   buildpacks:
+  - conjur-buildpack
   - binary_buildpack
   memory: 256m

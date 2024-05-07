@@ -14,4 +14,10 @@
     <PackageReference Include="Steeltoe.Management.EndpointCore" Version="3.2.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="secrets.yml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
